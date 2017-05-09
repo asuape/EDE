@@ -32,5 +32,13 @@ public class Calculadora {
 		return resultado;
 		
 	}
+	
+	public double potencia(double num1, double num2) {
+		
+		double resultado=0;
+		resultado=Math.pow(num1,  num2);
+		return resultado;
+		
+	}
 
 }
